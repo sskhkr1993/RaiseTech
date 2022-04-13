@@ -1,0 +1,12 @@
+@use '../foundation/mixin.scss'as m;
+
+.l-wrapper {
+  display: block;
+  position: relative;
+  @include m.breakpoint(pc) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto auto;
+  }
+}

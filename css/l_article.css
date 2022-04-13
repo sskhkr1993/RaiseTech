@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.l-article {
+  color: #3C2A10;
+  padding: 20px 20px 50px 20px;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .l-article {
+    display: grid;
+    /* padding: 20px 20px 50px 20px; */
+    grid-template-columns: 357px 357px;
+    gap: 40px;
+    margin: 40px;
+  }
+}
+/*# sourceMappingURL=l_article.css.map */

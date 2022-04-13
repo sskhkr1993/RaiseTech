@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.u-seach__header--margin {
+  margin-top: 45px;
+  margin-right: 12px;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .u-seach__header--margin {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=u-seach__header--margin.css.map */

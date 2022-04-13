@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.p-button__header {
+  display: block;
+  margin-left: auto;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .p-button__header {
+    display: none;
+  }
+}
+/*# sourceMappingURL=p-button__header.css.map */

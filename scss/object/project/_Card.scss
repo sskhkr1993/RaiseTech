@@ -1,0 +1,17 @@
+@use '../../foundation/mixin.scss'as m;
+
+.Card {
+  background: url(../../../image/front-page/card__Takeout.jpg) no-repeat center /cover;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding: 13px 12px 1px 12px;
+
+  @include m.breakpoint(pc) {
+    >ul {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+  }
+}

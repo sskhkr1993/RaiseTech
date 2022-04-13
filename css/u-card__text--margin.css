@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.u-card__text--margin {
+  margin-top: 20px;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .u-card__text--margin {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=u-card__text--margin.css.map */

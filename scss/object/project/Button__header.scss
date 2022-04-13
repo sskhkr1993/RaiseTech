@@ -1,0 +1,11 @@
+@use '../../foundation/mixin.scss'as m;
+@use 'sass:math';
+
+.Button__header {
+  display: block;
+  margin-left: auto;
+  
+  @include m.breakpoint(pc) {
+    display: none;
+  }
+}

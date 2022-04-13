@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.u-separator__card {
+  width: 33.89px;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 19px;
+  line-height: 1.31;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .u-separator__card {
+    width: 63px;
+  }
+}
+/*# sourceMappingURL=u-separator__card.css.map */

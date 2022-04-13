@@ -1,0 +1,10 @@
+.l-hero {
+  background: url(../../image/front-page/hero_iphone.jpg) no-repeat center/contain;
+  height: 285px;
+  width: 375px;
+  max-width: 100%;
+  position: relative;
+  padding-top: 110px;
+  padding-left: 25px;
+}
+/*# sourceMappingURL=l_hero.css.map */

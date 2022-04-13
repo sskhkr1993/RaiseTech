@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.p-card--second {
+  background: url(../../../image/front-page/card__eatin.jpg) no-repeat center/contain;
+  width: 335px;
+  height: 642px;
+  max-width: 100%;
+  padding: 13px 12px 0 12px;
+  margin-top: 20px;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .p-card--second {
+    width: 357px;
+    height: 681px;
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=p-card--second.css.map */

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.u-seach__icon {
+  position: relative;
+}
+.u-seach__icon::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../../../image/front-page/seach_icon.jpg) no-repeat center center/auto 100%;
+  display: inline-block;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  left: 5%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .u-seach__icon::after {
+    top: 55%;
+  }
+}
+/*# sourceMappingURL=u-seach__icon.css.map */

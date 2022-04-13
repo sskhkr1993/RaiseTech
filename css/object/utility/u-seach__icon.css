@@ -1,0 +1,16 @@
+.u-seach__icon {
+  position: relative;
+}
+
+.u-seach__icon::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../../../image/front-page/seach_icon.jpg) no-repeat center center/auto 100%;
+  display: inline-block;
+  position: absolute;
+  top: 75%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 5%;
+}

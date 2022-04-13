@@ -1,0 +1,9 @@
+@use '../../foundation/mixin.scss'as m;
+
+.u-seach__header--margin {
+  margin-top: 45px;
+  margin-right: 12px;
+  @include m.breakpoint(pc) {
+    margin-top: 0;
+  }
+}

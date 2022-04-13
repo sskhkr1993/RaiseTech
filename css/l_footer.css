@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.l-footer {
+  width: 375px;
+  height: 150px;
+  background: url(../../image/front-page/footer_nami.jpg) no-repeat center/contain;
+  text-align: center;
+  padding: 40px 50px 25px 50px;
+  color: #fff;
+  font-family: "m1";
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .l-footer {
+    width: 834px;
+  }
+}
+/*# sourceMappingURL=l_footer.css.map */

@@ -1,0 +1,11 @@
+@use '../../foundation/mixin.scss'as m;
+
+._text__map {
+  color: #fff;
+  font-family: 'm1-bold';
+  font-size: 14px;
+  line-height: 2.35;
+  @include m.breakpoint(pc) {
+    font-size: 16px;
+  }
+}

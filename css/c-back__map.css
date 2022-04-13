@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.c-back__map {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 691px;
+  background-color: black;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .c-back__map {
+    width: 834px;
+    height: 415px;
+  }
+}
+/*# sourceMappingURL=c-back__map.css.map */

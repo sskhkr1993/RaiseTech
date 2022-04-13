@@ -1,0 +1,13 @@
+@use '../../foundation/mixin.scss'as m;
+
+.Text__wrapper {
+  width:100%;
+  height: auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 19px 10px 20px 10px;
+  margin-bottom: 10px;
+
+  @include m.breakpoint(pc) {
+    margin-bottom: 20px;
+  }
+}

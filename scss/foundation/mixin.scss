@@ -1,0 +1,31 @@
+@mixin breakpoint($point) {
+
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  @if $point==sp {
+    @media (min-width :375px) {
+      @content;
+    }
+  }
+
+  /*タブレットの切り替え*/
+  @if $point==tab {
+    @media(min-width :600px) {
+      @content;
+    }
+  }
+
+  /*heroのタブレット用画像*/
+  @if $point==bigtab {
+    @media (min-width :834px) {
+      @content;
+    }
+  }
+
+  /*pc切り替え*/
+  @if $point==pc {
+    @media(min-width :1025px) {
+      @content;
+    }
+  }
+}

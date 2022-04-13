@@ -1,0 +1,16 @@
+@charset "UTF-8";
+._card__subtitle {
+  font-size: 22px;
+  font-family: "m1-bold";
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  ._card__subtitle {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=c-card__subtitle.css.map */

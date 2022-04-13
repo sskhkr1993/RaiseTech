@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.c-button__header {
+  background: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: #707070;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .c-button__header {
+    font-size: 34px;
+  }
+}
+/*# sourceMappingURL=c-button__header.css.map */

@@ -1,0 +1,9 @@
+@use '../../foundation/mixin.scss'as m;
+
+.u-separator__card {
+  width: 10%;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 19px;
+  line-height: 1.31;
+}

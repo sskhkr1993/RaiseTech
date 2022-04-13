@@ -1,0 +1,14 @@
+@use '../../foundation/mixin.scss'as m;
+
+._heading__card {
+  font-size: 41px;
+  font-weight: bold;
+  color: #EAEAEA;
+  line-height: 1.31;
+  @include m.breakpoint(tab) {
+    font-size: 44px;
+  }
+  @include m.breakpoint(pc) {
+    font-size: 80px;
+  }
+}

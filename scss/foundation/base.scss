@@ -1,0 +1,22 @@
+@use '../foundation/font.scss'as font;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'm1-normal', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "m1";
+  src: url("../../font/mplus-1m-regular.ttf") format("truetype");
+  src: url("../../font/mplus-1m-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "m1-light";
+  src: url("../../font/mplus-1m-light.ttf") format("truetype");
+  src: url("../../font/mplus-1m-light.woff") format("woff");
+}
+@font-face {
+  font-family: "m1-thin";
+  src: url("../../font/mplus-1m-thin.ttf") format("truetype");
+  src: url("../../font/mplus-1m-thin.woff") format("woff");
+}
+@font-face {
+  font-family: "m1-medium";
+  src: url("../../font/mplus-1m-medium.ttf") format("truetype");
+  src: url("../../font/mplus-1m-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "m1-bold";
+  src: url("../../font/mplus-1m-bold.ttf") format("truetype");
+  src: url("../../font/mplus-1m-bold.woff") format("woff");
+}
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "m1-normal", "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
