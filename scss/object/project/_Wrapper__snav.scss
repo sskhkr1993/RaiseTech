@@ -3,6 +3,7 @@
   &::before {
     content: "";
     display: block;
+    visibility: hidden;
     width: 100%;
     height: 100%;
     background: #000;
@@ -18,6 +19,7 @@
     &::before {
     content: "";
     display: block;
+    visibility: visible;
     background: #000;
     opacity: 0.5;
     position: fixed;
