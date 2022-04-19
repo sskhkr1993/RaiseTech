@@ -710,6 +710,7 @@ li {
 }
 
 .l-header {
+  position: relative;
   background-color: #FFF7EF;
   text-align: center;
   color: #707070;
@@ -719,6 +720,16 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .l-header {
+    padding: 35px 13px 42px 25px;
+  }
 }
 @media (min-width: 1025px) {
   .l-header {
@@ -811,6 +822,9 @@ li {
 }
 
 ._button__header {
+  position: absolute;
+  top: 5%;
+  right: 2%;
   background: transparent;
   border-color: transparent;
   font-size: 20px;
@@ -824,6 +838,7 @@ li {
 }
 @media (min-width: 600px) {
   ._button__header {
+    top: 8%;
     font-size: 34px;
   }
 }
@@ -1328,7 +1343,7 @@ li {
 }
 
 .u-seach__header--margin {
-  margin-top: 45px;
+  margin-top: 30px;
   margin-right: 12px;
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
@@ -1352,7 +1367,7 @@ li {
   background: url(../../../image/front-page/seach_icon.jpg) no-repeat center center/auto 100%;
   display: inline-block;
   position: absolute;
-  top: 75%;
+  top: 70%;
   transform: translateY(-50%);
   left: 5%;
   /*min-widthはこれ以上は小さくならないの意*/

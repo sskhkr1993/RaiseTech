@@ -1,6 +1,9 @@
 @use '../../foundation/mixin.scss'as m;
 
 ._button__header {
+  position: absolute;
+  top: 5%;
+  right: 2%;
   background: transparent;
   border-color: transparent;
   font-size: 20px;
@@ -8,6 +11,7 @@
   color: #707070;
 
   @include m.breakpoint(tab) {
+    top: 8%;
     font-size: 34px;
   }
 }
