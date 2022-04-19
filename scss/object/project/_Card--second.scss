@@ -1,6 +1,9 @@
 @use '../../foundation/mixin.scss'as m;
 
 .Card--second {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   background: url(../../../image/front-page/card__eatin.jpg) no-repeat center /cover;
   width: 100%;
   height: auto;
@@ -10,13 +13,5 @@
 
   @include m.breakpoint(tab) {
     margin-top: 0;
-  }
-
-  @include m.breakpoint(pc) {
-    >ul {
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
     }
   }
-}
