@@ -8,13 +8,40 @@
   background-color: rgb(0, 0, 0, 0.29);
   padding: 40px 30px 50px 30px;
 
-  @include m.breakpoint(tab) {
-
-  }
-
   @include m.breakpoint(pc) {
     width: 60%;
     height: 649px;
     padding: 5% 7% 0 7%;
+  }
+}
+
+._heading__map {
+  color: #fff;
+  font-family: 'm1-bold';
+  font-size: 30px;
+  @include m.breakpoint(pc) {
+    font-size: 36px;
+  }
+}
+
+.u-separator {
+  width: 75px;
+  height: 2px;
+  background-color: #fff;
+  margin: 6% 0 7% 0;
+  line-height: 1.5;
+
+  @include m.breakpoint(tab) {
+    margin: 3% 0 3% 0;
+  }
+}
+
+._text__map {
+  color: #fff;
+  font-family: 'm1-bold';
+  font-size: 14px;
+  line-height: 2.35;
+  @include m.breakpoint(pc) {
+    font-size: 16px;
   }
 }

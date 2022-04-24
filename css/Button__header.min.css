@@ -1,2 +1,2 @@
-.Button__header{display:block;margin-left:auto}@media(min-width: 1025px){.Button__header{display:none}}
+.Button__header{display:block;margin-left:auto}@media(min-width: 1025px){.Button__header{display:none}}._button__header{position:absolute;top:5%;right:2%;background:transparent;border-color:transparent;font-size:20px;font-weight:bold;color:#707070}@media(min-width: 600px){._button__header{top:8%;font-size:34px}}
 /*# sourceMappingURL=Button__header.min.css.map */

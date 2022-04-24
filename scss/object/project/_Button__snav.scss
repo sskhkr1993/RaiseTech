@@ -46,34 +46,3 @@
     display: none;
   }
 }
-/*
-  &::before,
-  &::after {*/
-    /*上下線*/
-    /*content: "";
-    width: $btnWidth;
-    background: #707070;
-    position: absolute;
-    transition: 0.2s;
-  }
-
-  &::before {
-    top: 15px;
-    height: $btnHeight;
-  }
-
-  &::after {
-    top: 33px;
-    height: $btnHeight;
-  }*/
-
-  /*@include m.breakpoint(tab) {
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    position: fixed;
-    z-index: 2000;
-    top: 0;
-    right: 0;
-  }*/
