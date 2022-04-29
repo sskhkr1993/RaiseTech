@@ -1,29 +1,10 @@
 @use '../../foundation/mixin.scss'as m;
 
-.Card--second {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  background: url(../../../image/front-page/card__eatin.jpg) no-repeat center /cover;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  padding: 13px 12px 1px 12px;
+.card--second {
   margin-top: 20px;
+  background: url(../../../image/front-page/card__eatin.jpg) no-repeat center /cover;
 
   @include m.breakpoint(tab) {
     margin-top: 0;
     }
   }
-
-  ._heading__card--second {
-    font-size: 41px;
-    font-weight: bold;
-    color: #fff;
-    line-height: 1.31;
-  
-    @include m.breakpoint(pc) {
-      font-size: 80px;
-    }
-  }
-  

@@ -1,24 +1,13 @@
-@use '../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss'as m;
 
-.l-hero {
+.hero {
   background: url(../../image/front-page/hero_iphone.jpg) no-repeat center /cover;
-
-  display: flex;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  padding: 40% 0 40% 5%;
-  align-items: center;
-
 
   @include m.breakpoint(tab) {
     background: url(../../image/front-page/hero.jpg) no-repeat center /cover;
-    padding: 15% 0 15% 8%;
   }
 
   @include m.breakpoint(pc) {
     background: url(../../image/front-page/hero_pc.jpg) no-repeat center /cover;
-    grid-row: 2/3;
-    padding: 15% 0 15% 5%;
   }
 }

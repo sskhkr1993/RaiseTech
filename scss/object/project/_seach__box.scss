@@ -1,0 +1,21 @@
+@use '../../foundation/mixin.scss'as m;
+
+.seach__box {
+  width: 230px;
+  height: 46px;
+  padding-left: 60px;
+  margin-top: 30px;
+  margin-right: 12px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #707070;
+
+  @include m.breakpoint(tab) {
+    width: 396px;
+  }
+
+  @include m.breakpoint(pc) {
+    margin-top: 0;
+  }
+}

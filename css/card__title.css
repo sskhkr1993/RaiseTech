@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.card__title {
+  font-size: 41px;
+  font-weight: bold;
+  line-height: 1.31;
+  color: #EAEAEA;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card__title {
+    font-size: 44px;
+  }
+}
+@media (min-width: 1025px) {
+  .card__title {
+    font-size: 80px;
+  }
+}
+/*# sourceMappingURL=card__title.css.map */

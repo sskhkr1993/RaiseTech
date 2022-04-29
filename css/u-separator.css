@@ -1,10 +1,10 @@
 @charset "UTF-8";
-.u-separator {
+.map-body__separator {
+  margin: 6% 0 7% 0;
   width: 75px;
   height: 2px;
-  background-color: #fff;
-  margin: 6% 0 7% 0;
   line-height: 1.5;
+  background-color: #fff;
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -12,7 +12,7 @@
   /*pc切り替え*/
 }
 @media (min-width: 600px) {
-  .u-separator {
+  .map-body__separator {
     margin: 3% 0 3% 0;
   }
 }

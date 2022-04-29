@@ -1,0 +1,10 @@
+@use '../../foundation/mixin.scss'as m;
+
+.card-list__subtitle {
+  font-size: 22px;
+  font-family: 'm1-bold';
+
+  @include m.breakpoint(tab) {
+    font-size: 24px;
+    }
+}

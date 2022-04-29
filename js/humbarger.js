@@ -1,6 +1,6 @@
 $(function (){
-  $(".js-btn__header").on("click",function(){
-    $(".l-snav,._Button__snav,._Wrapper__snav").toggleClass("is-open");
+  $(".js-button").on("click",function(){
+    $(".l-menu,.menu-button__close,.menu-background").toggleClass("is-open");
     $("body").toggleClass("is-open"); /*bodyがスクロールできなくなる用*/
   });
 });

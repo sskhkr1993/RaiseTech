@@ -1,0 +1,13 @@
+@use '../../foundation/mixin.scss'as m;
+
+.map-body__separator {
+  margin: 6% 0 7% 0;
+  width: 75px;
+  height: 2px;
+  line-height: 1.5;
+  background-color: #fff;
+
+  @include m.breakpoint(tab) {
+    margin: 3% 0 3% 0;
+  }
+}

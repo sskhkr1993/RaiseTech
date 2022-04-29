@@ -1,0 +1,11 @@
+@use '../../foundation/mixin.scss'as m;
+
+.map-body__heading {
+  font-family: 'm1-bold';
+  font-size: 30px;
+  color: #fff;
+
+  @include m.breakpoint(pc) {
+    font-size: 36px;
+  }
+}

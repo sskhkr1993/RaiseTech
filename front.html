@@ -21,61 +21,59 @@
 
 <body class="l-wrapper">
   <header class="l-header">
-    <button type="button" class="_button__header Button__header js-btn__header">
+    <button type="button" class="button js-button">
       Menu
     </button>
-    <h1 class="_heading__header">Hamburger</h1>
-    <div class="Seach__header">
-      <div class="u-seach__icon">
-        <input type="text" class="_seach__text u-seach__header--margin">
+    <h1 class="logo">Hamburger</h1>
+    <div class="seach">
+      <div class="seach__icon">
+        <input type="search" class="seach__box">
       </div>
-      <input type="submit" value="検索" class="_seach__submit u-seach__header--margin">
+      <input type="submit" value="検索" class="seach__submit">
     </div>
 
   </header>
 
+  <!--メニューの背景-->
+  <div class="menu-background"></div>
+
   <!--サイドメニュー-->
-  <div class="_Wrapper__snav">
-    <!--<button type="button" class="button__side Button__side js-btn__header">
-      Menu
-    </button>-->
-  </div>
-  <nav class="l-snav">
-    <div class="u-wrapper__menu">
-      <div class="_menu__heading">
+  <nav class="l-menu">
+    <div class="menu">
+      <div class="menu__heading">
         Menu
       </div>
-      <button type="button" class="_Wrapper__snav--button">
-        <span class="_Button__snav js-btn__header">×ボタン</span>
+      <button type="button" class="menu-button">
+        <span class="menu-button__close js-button">×ボタン</span>
       </button>
-      <ul class="_Summary__menu">
-        <li class="_Summary__menu-title u-summary__menu-title">バーガー
-          <ul class="_Detail__menu">
-            <li class="_detail__menu-title u-detail__menu-title">ハンバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">チーズバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">テリヤキバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">アボカドバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">フィッシュバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">ベーコンバーガー</li>
-            <li class="_detail__menu-title u-detail__menu-title">チキンバーガー</li>
+      <ul class="menu-list">
+        <li class="menu-list__item">バーガー
+          <ul class="menu-list--second">
+            <li class="menu-list__item--second">ハンバーガー</li>
+            <li class="menu-list__item--second">チーズバーガー</li>
+            <li class="menu-list__item--second">テリヤキバーガー</li>
+            <li class="menu-list__item--second">アボカドバーガー</li>
+            <li class="menu-list__item--second">フィッシュバーガー</li>
+            <li class="menu-list__item--second">ベーコンバーガー</li>
+            <li class="menu-list__item--second">チキンバーガー</li>
           </ul>
         </li>
-        <li class="_Summary__menu-title u-summary__menu-title">サイド
-          <ul class="_Detail__menu">
-            <li class="_detail__menu-title u-detail__menu-title">ポテト</li>
-            <li class="_detail__menu-title u-detail__menu-title">サラダ</li>
-            <li class="_detail__menu-title u-detail__menu-title">ナゲット</li>
-            <li class="_detail__menu-title u-detail__menu-title">コーン</li>
+        <li class="menu-list__item">サイド
+          <ul class="menu-list--second">
+            <li class="menu-list__item--second">ポテト</li>
+            <li class="menu-list__item--second">サラダ</li>
+            <li class="menu-list__item--second">ナゲット</li>
+            <li class="menu-list__item--second">コーン</li>
           </ul>
         </li>
-        <li class="_Summary__menu-title u-summary__menu-title">ドリンク
-          <ul class="_Detail__menu u-detail__menu">
-            <li class="_detail__menu-title u-detail__menu-title">コーラ</li>
-            <li class="_detail__menu-title u-detail__menu-title">ファンタ</li>
-            <li class="_detail__menu-title u-detail__menu-title">オレンジ</li>
-            <li class="_detail__menu-title u-detail__menu-title">アップル</li>
-            <li class="_detail__menu-title u-detail__menu-title">紅茶（Ice/Hot）</li>
-            <li class="_detail__menu-title u-detail__menu-title">コーヒー（Ice/Hot）</li>
+        <li class="menu-list__item">ドリンク
+          <ul class="menu-list--second">
+            <li class="menu-list__item--second">コーラ</li>
+            <li class="menu-list__item--second">ファンタ</li>
+            <li class="menu-list__item--second">オレンジ</li>
+            <li class="menu-list__item--second">アップル</li>
+            <li class="menu-list__item--second">紅茶（Ice/Hot）</li>
+            <li class="menu-list__item--second">コーヒー（Ice/Hot）</li>
           </ul>
         </li>
       </ul>
@@ -83,45 +81,45 @@
   </nav>
 
   <!--メインビジュアル-->
-  <div class="l-hero">
-    <h2 class="_heading__hero">ダミーサイト</h2>
+  <div class="l-hero _hero">
+    <h2 class="hero__heading">ダミーサイト</h2>
   </div>
 
   <!--ここからTAKEOUT＆EATIN-->
-  <main class="l-wrapper__main">
+  <main class="l-main">
 
     <article class="l-article">
-      <article class="Card">
-        <h3 class="_heading__card">Take Out</h3>
-        <div class="u-separator__card"></div>
-        <ul class="u-card--adjust">
-          <li class="Text__wrapper">
-            <h4 class="card__subtitle">Take OUT</h4>
-            <p class="card__text u-card__text--margin">
+      <article class="card">
+        <h3 class="card__title">Take Out</h3>
+        <div class="card__separator"></div>
+        <ul class="card-list">
+          <li class="card-list__item">
+            <h4 class="card-list__subtitle">Take OUT</h4>
+            <p class="card-list__content">
               当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
             </p>
           </li>
-          <li class="Text__wrapper">
-            <h4 class="card__subtitle">Take OUT</h4>
-            <p class="card__text u-card__text--margin">
+          <li class="card-list__item">
+            <h4 class="card-list__subtitle">Take OUT</h4>
+            <p class="card-list__content">
               当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
           </li>
         </ul>
       </article>
 
-      <article class="Card--second">
-        <h3 class="_heading__card--second">Eat In</h3>
-        <div class="u-separator__card"></div>
-        <ul class="u-card--adjust">
-          <li class="Text__wrapper">
-            <h4 class="card__subtitle">Eat In</h4>
-            <p class="card__text u-card__text--margin">
+      <article class="card card--second">
+        <h3 class="card__title card__title--second">Eat In</h3>
+        <div class="card__separator"></div>
+        <ul class="card-list">
+          <li class="card-list__item">
+            <h4 class="card-list__subtitle">Eat In</h4>
+            <p class="card-list__content">
               当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
             </p>
           </li>
-          <li class="Text__wrapper">
-            <h4 class="card__subtitle">Eat In</h4>
-            <p class="card__text u-card__text--margin">
+          <li class="card-list__item">
+            <h4 class="card-list__subtitle">Eat In</h4>
+            <p class="card-list__content">
               当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
           </li>
         </ul>
@@ -130,17 +128,17 @@
 
 
     <!--map-->
-    <section id="location" class="l-map">
-      <div class="_location__map">
+    <section id="location" class="l-map map">
+      <div class="map__location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747975468369!2d139.7432442151108!3d35.65858048019959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1649423073692!5m2!1sja!2sjp&ll=35.658301528208476, 139.74445120913217&z=20"
           style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="_back__map"></div>
-      <div class="_Wrapper__map">
-        <h3 class="_heading__map">見出しが入ります</h3>
-        <div class="u-separator"></div>
-        <p class="_text__map">
+      <div class="map__background"></div>
+      <div class="map-body">
+        <h3 class="map-body__heading">見出しが入ります</h3>
+        <div class="map-body__separator"></div>
+        <p class="map-body__content">
           テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
         </p>
       </div>
@@ -150,11 +148,11 @@
 
   <!--footer-->
   <footer class="l-footer">
-    <div class="_Info__footer">
-      <a href="#" class="_info__footer">ショップ情報 |</a>
-      <a href="#" class="_info__footer">ヒストリー</a>
+    <div class="footer">
+      <a href="#" class="footer__list">ショップ情報 |</a>
+      <a href="#" class="footer__list">ヒストリー</a>
     </div>
-    <p class="_copyright__footer u-copyright__footer--margin">Copyright: RaiseTech</p>
+    <p class="copyright">Copyright: RaiseTech</p>
   </footer>
 
   <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
