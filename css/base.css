@@ -24,7 +24,23 @@
   src: url("../../font/mplus-1m-bold.woff") format("woff");
 }
 html {
-  font-size: 100%;
+  font-size: calc(90% + 0.5vw);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.26rem;
+}
+
+h4 {
+  font-size: 1.38rem;
 }
 
 body {

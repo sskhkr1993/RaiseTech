@@ -1,12 +1,10 @@
 @use '../../foundation/mixin.scss'as m;
 
 .logo {
-  font-size: 40px;
   font-weight: bold;
 
   @include m.breakpoint(pc) {
     display: flex;
-    font-size: 64px;
     align-items: center;
   }
 }

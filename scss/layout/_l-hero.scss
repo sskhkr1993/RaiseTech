@@ -7,18 +7,17 @@
   position: relative;
   width: 100%;
   max-width: 100%;
-  padding: 40% 0 40% 5%;
+  padding: 8rem 0 8rem 2rem;
   align-items: center;
 
 
   @include m.breakpoint(tab) {
     background: url(../../image/front-page/hero.jpg) no-repeat center /cover;
-    padding: 15% 0 15% 8%;
+    padding: 7rem 0 7rem 3rem;
   }
 
   @include m.breakpoint(pc) {
     background: url(../../image/front-page/hero_pc.jpg) no-repeat center /cover;
     grid-row: 2/3;
-    padding: 15% 0 15% 5%;
   }
 }

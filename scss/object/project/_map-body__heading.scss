@@ -2,10 +2,11 @@
 
 .map-body__heading {
   font-family: 'm1-bold';
-  font-size: 30px;
+  font-size: 1.7rem;
   color: #fff;
 
   @include m.breakpoint(pc) {
-    font-size: 36px;
+      font-size: 1.5rem;
   }
+
 }
