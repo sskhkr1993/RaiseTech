@@ -15,14 +15,10 @@
 * Layout
 *=====================*/
 
-@use "layout/l-map";
-@use "layout/l-article";
 @use "layout/l-footer";
-@use "layout/l-hero";
 @use "layout/l-header.scss";
-@use "layout/l-menu.scss";
 @use "layout/l-main";
-@use "layout/l-wrapper";
+
 
 /**
 * Object
@@ -30,7 +26,7 @@
 
 /*Component-----------*/
 
-
+@use "../scss/object/component/Wrapper";
 
 /*Project-------------*/
 /*header*/
@@ -43,7 +39,10 @@
 
 /*menu*/
 @use "../scss/object/project/menu-background";
+@use "../scss/object/project/menu-wrapper--pc";
+@use "../scss/object/project/menu--pc";
 
+@use "../scss/object/project/menu-wrapper";
 @use "../scss/object/project/menu";
 @use '../scss/object/project/menu__heading';
 @use '../scss/object/project/menu-button';
@@ -54,10 +53,11 @@
 @use '../scss/object/project/menu-list__item--second';
 
 /*hero*/
-@use '../scss/object/project/hero';
+@use "../scss/object/project/hero";
 @use '../scss/object/project/hero__heading';
 
 /*card*/
+@use "../scss/object/project/article";
 @use '../scss/object/project/card';
 @use '../scss/object/project/card--second';
 @use '../scss/object/project/card__title';
@@ -69,6 +69,7 @@
 @use '../scss/object/project/card-list__content';
 
 /*map*/
+@use "../scss/object/project/map";
 @use '../scss/object/project/map__location';
 @use '../scss/object/project/map__background';
 @use '../scss/object/project/map-body';

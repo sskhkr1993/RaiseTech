@@ -1,6 +1,6 @@
-@use '../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss'as m;
 
-.l-wrapper {
+.Wrapper {
   display: block;
   position: relative;
   &.is-open{

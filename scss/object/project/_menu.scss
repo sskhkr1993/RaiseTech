@@ -1,6 +1,9 @@
+@use '../../foundation/mixin.scss'as m;
+
 .menu {
   position: relative;
   padding-top: 4.5rem;
   padding-left: 2.5rem;
   padding-bottom: 7rem;
 }
+

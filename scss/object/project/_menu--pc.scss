@@ -1,0 +1,13 @@
+@use '../../foundation/mixin.scss'as m;
+
+.menu--pc{
+  display: none;
+
+  @include m.breakpoint(pc) {
+    display: block;
+    position: relative;
+    padding-top: 4.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 7rem;
+  }
+}
