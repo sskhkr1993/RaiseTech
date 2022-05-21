@@ -5,5 +5,16 @@
   padding-top: 4.5rem;
   padding-left: 2.5rem;
   padding-bottom: 7rem;
+  &__heading {
+    display: none;
+  
+    @include m.breakpoint(pc) {
+      display: block;
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 1.32;
+      color: #707070;
+    }
+  }
 }
-

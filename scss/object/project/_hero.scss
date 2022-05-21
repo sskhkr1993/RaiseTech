@@ -20,4 +20,11 @@
     background: url(../../image/front-page/hero_pc.jpg) no-repeat center /cover;
     grid-row: 2/3;
   }
+
+  &__heading {
+    position: absolute;
+    margin: 0;
+    font-family: 'm1-bold';
+    color: #fff;
+  }
 }

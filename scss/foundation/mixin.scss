@@ -22,12 +22,6 @@
     }
   }
 
-  @if $point==smalltab {
-    @media(min-width :601px) {
-      @content;
-    }
-  }
-
   /*pc切り替え*/
   @if $point==pc {
     @media(min-width :1025px) {

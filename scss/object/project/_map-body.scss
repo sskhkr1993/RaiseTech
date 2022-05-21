@@ -16,4 +16,37 @@
     width: 60%;
     height: auto;
   }
+
+  &__separator {
+    margin: 1.1rem 0 1rem 0;
+    width: 75px;
+    height: 2px;
+    line-height: 1.5;
+    background-color: #fff;
+  
+    @include m.breakpoint(tab) {
+      margin: 1.7rem 0 1.8rem 0;
+    }
+  }
+
+  &__content {
+    font-family: 'm1-bold';
+    font-size: 0.8rem;
+    line-height: 2.35;
+    color: #fff;
+  
+    @include m.breakpoint(pc) {
+      font-size: 0.75rem;
+    }
+  }
+
+  &__heading {
+    font-family: 'm1-bold';
+    font-size: 1.7rem;
+    color: #fff;
+  
+    @include m.breakpoint(pc) {
+        font-size: 1.5rem;
+    }
+  }
 }
