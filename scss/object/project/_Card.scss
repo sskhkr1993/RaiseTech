@@ -10,6 +10,15 @@
   padding: 0.8rem 0.8rem 0.3rem 0.8rem;
   background: url(../../../image/front-page/card__Takeout.jpg) no-repeat center /cover;
 
+  &--second {
+    margin-top: 1.1rem;
+    background: url(../../../image/front-page/card__eatin.jpg) no-repeat center /cover;
+  
+    @include m.breakpoint(tab) {
+      margin-top: 0;
+      }
+    }
+
   &__separator {
     margin-top: 1rem;
     margin-bottom: 10rem;

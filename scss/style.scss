@@ -36,14 +36,10 @@
 
 /*menu*/
 @use "../scss/object/project/menu-background";
-@use "../scss/object/project/menu-wrapper--pc";
-@use "../scss/object/project/menu--pc";
 
 @use "../scss/object/project/menu-wrapper";
 @use "../scss/object/project/menu";
-@use '../scss/object/project/menu-button';
 @use '../scss/object/project/menu-list';
-@use '../scss/object/project/menu-list--second';
 
 /*hero*/
 @use "../scss/object/project/hero";
@@ -51,7 +47,6 @@
 /*card*/
 @use "../scss/object/project/article";
 @use '../scss/object/project/card';
-@use '../scss/object/project/card--second';
 @use '../scss/object/project/card-list';
 
 /*map*/
@@ -59,7 +54,7 @@
 @use '../scss/object/project/map-body';
 
 /*footer*/
-@use '../scss/object/project/footer__list';
+
 @use '../scss/object/project/copyright';
 
 /*Utility-------------*/

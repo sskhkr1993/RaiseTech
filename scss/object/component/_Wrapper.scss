@@ -3,6 +3,7 @@
 .Wrapper {
   display: block;
   position: relative;
+  
   &.is-open{
     overflow-y: hidden;
     position: fixed;

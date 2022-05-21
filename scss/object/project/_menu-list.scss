@@ -1,5 +1,10 @@
 .menu-list {
   margin-top: 5rem;
+
+  &--second {
+    font-family: 'm1';
+    font-size: 0.9rem;
+  }
   
   &__item{
     margin-top: 2.5rem;
