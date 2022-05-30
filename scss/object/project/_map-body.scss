@@ -1,8 +1,6 @@
 @use '../../foundation/mixin.scss'as m;
 
 .map-body {
-  display: flex;
-  flex-direction: column;
   height: auto;
   background-color: rgb(0, 0, 0, 0.4);
   padding: 2.1rem 1.7rem 2.1rem 2.3rem;

@@ -29,6 +29,7 @@
   }
 
   &__title {
+    font-family: 'Roboto';
     font-weight: bold;
     line-height: 1.31;
     color: #EAEAEA;
@@ -40,5 +41,109 @@
 
   &__title--second {
     color: #fff;
+  }
+
+/*archive,serch*/
+  &--archive {
+    &.Grid {
+    display: block;
+    margin-top: 1.2rem;
+    @include m.breakpoint(tab) {
+      display: grid;
+      margin-top: 2rem;
+      }
+    }
+  }
+
+  &__header{
+    @include m.breakpoint(tab) {
+      grid-column: 1/2;
+      grid-row: 1/3;
+    }
+  }
+
+  &__figure, &__image {
+      height: 100%;
+  }
+
+  &__image {
+    background-image: url(../../../image/archeive/card--archive.jpg);
+  }
+
+  &__image {
+    padding: 7rem;
+    &.Image{
+      @include m.breakpoint(tab) {
+        background-position: top 10% left 10%;
+        }
+      }
+    }
+
+  &__body {
+    margin-right: 4.5rem;
+    margin-left: 1rem;
+    @include m.breakpoint(tab) {
+      margin-right: 3.2rem;
+      margin-left: 1.8rem;
+    }
+  }
+
+  &__heading {
+    margin-top: 1.9rem;
+    font-size: 1.3rem;
+
+    @include m.breakpoint(tab) {
+      font-size: 1.1rem;
+    }
+    @include m.breakpoint(pc) {
+      margin-top: 2.3rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+
+    @include m.breakpoint(tab) {
+      font-size: 0.9rem;
+    }
+    @include m.breakpoint(pc) {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+  }
+
+  &__content {
+    margin-top: 0.7rem;
+    @include m.breakpoint(tab) {
+      font-size: 0.9rem;
+    }
+    @include m.breakpoint(pc) {
+      font-size: 0.7rem;
+    }
+  }
+
+  &__footer {
+    margin-top: 2.5rem;
+    margin-bottom: 2.6rem;
+    text-align: center;
+    @include m.breakpoint(tab) {
+      margin-bottom: 2.3rem;
+    }
+    @include m.breakpoint(pc) {
+      margin-top: 3.3rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  &__link {
+    &.Link{
+      padding: 0.6rem 2.6rem;
+      @include m.breakpoint(pc) {
+        padding: 1.2rem 4.5rem;
+        font-size: 0.7rem;
+      }
+    }
   }
 }

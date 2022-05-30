@@ -27,8 +27,28 @@
 /*Component-----------*/
 
 @use "../scss/object/component/Wrapper";
+@use '../scss/object/component/Heading--bold';
+@use '../scss/object/component/Heading--m1bold';
 
-/*Project-------------*/
+/*hero*/
+@use '../scss/object/component/Flexbox--column';
+
+/*section*/
+@use '../scss/object/component/Content';
+
+/*card-archive*/
+@use '../scss/object/component/Card';
+@use '../scss/object/component/Image';
+@use '../scss/object/component/Background';
+@use '../scss/object/component/Link';
+@use '../scss/object/component/Grid';
+
+/*pagination*/
+@use '../scss/object/component/Pagination';
+
+
+
+/*Project=====================*/
 /*header*/
 @use '../scss/object/project/button.scss';
 @use '../scss/object/project/logo';
@@ -44,6 +64,9 @@
 /*hero*/
 @use "../scss/object/project/hero";
 
+/*section*/
+@use '../scss/object/project/introduction';
+
 /*card*/
 @use "../scss/object/project/article";
 @use '../scss/object/project/card';
@@ -53,8 +76,12 @@
 @use "../scss/object/project/map";
 @use '../scss/object/project/map-body';
 
+/*pager*/
+@use "../scss/object/project/pagination";
+
 /*footer*/
 
 @use '../scss/object/project/copyright';
 
 /*Utility-------------*/
+@use '../scss/object/utility/u-padding';

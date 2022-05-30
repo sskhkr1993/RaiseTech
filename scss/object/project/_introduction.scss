@@ -1,0 +1,23 @@
+@use '../../foundation/mixin.scss'as m;
+
+.introduction {
+  color: #3C2A10;
+  
+  &__heading {
+    padding-top: 2rem;
+    font-size: 1.7rem;
+
+    @include m.breakpoint(tab) {
+      font-size: 1.9rem;
+    }
+  }
+
+  &__text {
+    padding-top: 2rem;
+
+    @include m.breakpoint(tab) {
+      padding-top: 1.4rem;
+      font-size: 0.9rem;
+    }
+  }
+}

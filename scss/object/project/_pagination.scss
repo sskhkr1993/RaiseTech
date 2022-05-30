@@ -1,0 +1,81 @@
+@use '../../foundation/mixin.scss'as m;
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5.5rem 0 1.6rem 0;
+  margin: 0;
+  font-family: 'm1';
+  font-size: 1rem;
+  color: #707070;
+  @include m.breakpoint(tab) {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+  &-list{
+    &.Pagination {
+      margin: 0;
+      padding-left: 0;
+    }
+
+    &__icon{
+      width: 1.1rem;
+    }
+
+    &__text{
+      margin: 0 0.5rem;
+    }
+  }
+}
+
+.page {
+  display: none;
+  @include m.breakpoint(tab) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px;
+    border-color: #707070;
+  }
+}
+
+.navi-current {
+  background-color: #3C2B1C;
+  color: #fff;
+}
+
+.first {
+  display: none;
+  @include m.breakpoint(tab) {
+    display: block;
+    margin: 0 0.5rem 0 1rem;
+  }
+}
+
+.prev, .next {
+  @include m.breakpoint(tab) {
+    display: none;
+  }
+}
+
+.last {
+  display: none;
+  @include m.breakpoint(tab) {
+    display: block;
+    margin-left: 0.5rem;
+  }
+}
+
+.pageNumbers {
+  display: none;
+  @include m.breakpoint(tab) {
+    display: block;
+    order: -1;
+  }
+}
