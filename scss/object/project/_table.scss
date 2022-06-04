@@ -1,0 +1,20 @@
+.table {
+  margin-top: 1.9rem;
+  &__body{
+    width: 100%;
+    }
+  &__colum{
+    &--one{
+    padding-top: 1.7rem;
+    padding-right: 2rem;
+    padding-bottom: 1.6rem;
+    padding-left: 0.5rem;
+    width: 40%;
+    }
+    &--two {
+      padding-right: 6.5rem;
+      padding-left: 0.5rem;
+      width: 60%;
+    }
+  }
+}

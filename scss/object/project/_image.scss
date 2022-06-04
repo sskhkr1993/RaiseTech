@@ -1,0 +1,11 @@
+.image {
+  &__outer--single {
+    margin-top: 1.9rem;
+    text-align: center;
+  }
+  &__inner--single {
+    &.Image {
+      width: 80%;
+    }
+  }
+}

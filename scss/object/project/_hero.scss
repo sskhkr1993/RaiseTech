@@ -12,15 +12,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../../image/front-page/hero_iphone.jpg);
-
   @include m.breakpoint(tab) {
     padding: 7rem 0 7rem 3rem;
-    background: url(../../image/front-page/hero.jpg);
+    background-image: url(../../image/front-page/hero.jpg);
   }
-
   @include m.breakpoint(pc) {
     grid-row: 2/3;
-    background: url(../../image/front-page/hero_pc.jpg);
+    background-image: url(../../image/front-page/hero_pc.jpg);
   }
 
   &__heading {
@@ -33,7 +31,6 @@
     background-position: top 40% left 30%;
     background-size: auto;
     background-image: url(../../../image/archeive/hero--archive.jpg);
-
     @include m.breakpoint(tab) {
       padding-top: 7.5rem;
       padding-bottom: 7.5rem;
@@ -54,7 +51,6 @@
       height: 100%; 
       width: 100%;
       background-color: rgb(0,0,0,0.5);
-
       @include m.breakpoint(tab) {
         padding-left: 4.6rem;
       }
@@ -65,18 +61,16 @@
 
     &__heading{
       font-size: 2rem;
-
       @include m.breakpoint(tab) {
         font-size: 3.3rem;
       }
       @include m.breakpoint(pc) {
         font-size: 2.8rem;
       }
-
     }
+
     &__subtitle{
       font-size: 1rem;
-
       @include m.breakpoint(tab) {
         padding-left: 1.1rem;
       }
@@ -91,6 +85,33 @@
       flex-direction: row;
       align-items: center;
       justify-content: start;
+    }
+  }
+
+  &--single{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    padding-left: 1.5rem;
+    background-image: url(../../../image/single/hero--sp.jpg);
+    @include m.breakpoint(tab) {
+      padding-top: 11rem;
+      padding-bottom: 11rem;
+      padding-left: 4.5rem;
+    }
+    @include m.breakpoint(pc) {
+      padding-top: 9.5rem;
+      padding-bottom: 9.5rem;
+      padding-left: 4rem;
+      background-image: url(../../../image/single/hero--pc.jpg);
+    }
+    &__heading{
+      font-size: 2rem;
+      @include m.breakpoint(tab) {
+        font-size: 3.3rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 2.8rem;
+      }
     }
   }
 }

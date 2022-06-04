@@ -121,6 +121,11 @@ main {
   display: block;
 }
 
+blockquote, figure {
+  margin: 0;
+  padding: 0;
+}
+
 /**
   * Remove the list style on navigation lists in all browsers (opinionated).
   */
@@ -590,8 +595,8 @@ h3 {
   font-size: 2.26rem;
 }
 
-h4 {
-  font-size: 1.38rem;
+h4, h5, h6 {
+  font-size: 1.3rem;
 }
 
 body {
@@ -716,6 +721,18 @@ li {
   line-height: 1.44;
 }
 
+.Quote {
+  font-family: "m1";
+  line-height: 1.44;
+  background-color: #F5F5F5;
+}
+
+.Cite {
+  font-style: normal;
+  color: #4A6C9B;
+  text-decoration: underline;
+}
+
 .Card {
   border-width: 1px;
   border-style: solid;
@@ -747,6 +764,21 @@ li {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
+}
+
+.Table, tr, th {
+  border-color: #707070;
+  font-family: "m1";
+  font-weight: normal;
+}
+
+.Button {
+  font-family: "m1-bold";
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: #707070;
+  background: linear-gradient(#F2EDE9, #DED8D3);
 }
 
 .Pagination {
@@ -1121,13 +1153,13 @@ li {
 @media (min-width: 600px) {
   .hero {
     padding: 7rem 0 7rem 3rem;
-    background: url(../../image/front-page/hero.jpg);
+    background-image: url(../../image/front-page/hero.jpg);
   }
 }
 @media (min-width: 1025px) {
   .hero {
     grid-row: 2/3;
-    background: url(../../image/front-page/hero_pc.jpg);
+    background-image: url(../../image/front-page/hero_pc.jpg);
   }
 }
 .hero__heading {
@@ -1254,6 +1286,60 @@ li {
     justify-content: start;
   }
 }
+.hero--single {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+  padding-left: 1.5rem;
+  background-image: url(../../../image/single/hero--sp.jpg);
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .hero--single {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+    padding-left: 4.5rem;
+  }
+}
+@media (min-width: 1025px) {
+  .hero--single {
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+    padding-left: 4rem;
+    background-image: url(../../../image/single/hero--pc.jpg);
+  }
+}
+.hero--single__heading {
+  font-size: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .hero--single__heading {
+    font-size: 3.3rem;
+  }
+}
+@media (min-width: 1025px) {
+  .hero--single__heading {
+    font-size: 2.8rem;
+  }
+}
 
 .introduction {
   color: #3C2A10;
@@ -1285,6 +1371,43 @@ li {
     padding-top: 1.4rem;
     font-size: 0.9rem;
   }
+}
+
+.information {
+  color: #3C2A10;
+}
+.information__text, .information__image {
+  margin-top: 1.9rem;
+}
+.information__heading--huge {
+  margin-top: 1.9rem;
+  font-size: 1.8rem;
+}
+.information__heading--large {
+  margin-top: 2.1rem;
+  font-size: 1.5rem;
+}
+.information__heading--medium, .information__heading--tiny {
+  margin-top: 1.9rem;
+}
+.information__heading--small {
+  margin-top: 2.3rem;
+}
+.information__image.Image {
+  width: 100%;
+  height: 7rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 100%;
+     object-position: 0% 100%;
+}
+
+.quote.Quote {
+  padding: 1.8rem 1rem 1.8rem 1.2rem;
+  margin-top: 1.8rem;
+}
+.quote__footer {
+  margin-top: 1.8rem;
 }
 
 .article {
@@ -1327,6 +1450,7 @@ li {
   padding: 0.8rem 0.8rem 0.3rem 0.8rem;
   background: url(../../../image/front-page/card__Takeout.jpg) no-repeat center/cover;
   /*archive,serch*/
+  /*single*/
 }
 .card--second {
   margin-top: 1.1rem;
@@ -1546,6 +1670,44 @@ li {
     font-size: 0.7rem;
   }
 }
+.card--single {
+  margin-top: 1.9rem;
+}
+.card--single.Grid {
+  grid-template-columns: 46% 54%;
+  grid-template-rows: auto;
+}
+.card--single__figure, .card--single__image {
+  height: 100%;
+}
+.card--single__image {
+  background-image: url(../../../image/single/cooked-foods-750073.jpg);
+}
+.card--single__image.Image {
+  background-position: unset;
+  background-size: contain;
+}
+.card--singleSecond {
+  margin-top: 1.9rem;
+}
+.card--singleSecond.Grid {
+  grid-template-columns: 54% 46%;
+  grid-template-rows: auto;
+}
+.card--singleSecond__header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.card--singleSecond__figure, .card--singleSecond__image {
+  height: 100%;
+}
+.card--singleSecond__image {
+  background-image: url(../../../image/single/cooked-foods-750073.jpg);
+}
+.card--singleSecond__image.Image {
+  background-position: unset;
+  background-size: contain;
+}
 
 .card-list {
   padding: 0;
@@ -1577,6 +1739,105 @@ li {
   margin-top: 1rem;
   font-family: "m1";
   line-height: 1.43;
+}
+
+.image__outer--single {
+  margin-top: 1.9rem;
+  text-align: center;
+}
+.image__inner--single.Image {
+  width: 80%;
+}
+
+.image-list {
+  margin: 0;
+  padding: 0;
+}
+.image-list.Grid {
+  gap: 1.2rem;
+  grid-template-columns: none;
+  grid-template-rows: none;
+}
+.image-list__wrapper {
+  margin-top: 2rem;
+}
+
+.list-wrapper {
+  margin-top: 2rem;
+}
+
+.decimal-list {
+  margin: 0;
+  margin-top: 1.2rem;
+  padding-left: 2rem;
+  list-style: decimal;
+}
+.decimal-list--second {
+  margin-top: 0.8rem;
+  padding-left: 1.5rem;
+}
+.decimal-list__item {
+  list-style: decimal;
+}
+
+.text-list {
+  margin: 0;
+  margin-top: 1.2rem;
+  padding-left: 0.5rem;
+}
+.text-list__outer {
+  margin-top: 3.7rem;
+}
+.text-list--second {
+  margin-top: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+.code {
+  margin-top: 1.9rem;
+  background-color: #F5F5F5;
+}
+.code__inner {
+  color: #3C2A10;
+  font-family: "m1";
+  font-size: 1rem;
+}
+.code__outer {
+  margin: 0;
+  padding: 3.1rem;
+}
+
+.table {
+  margin-top: 1.9rem;
+}
+.table__body {
+  width: 100%;
+}
+.table__colum--one {
+  padding-top: 1.7rem;
+  padding-right: 2rem;
+  padding-bottom: 1.6rem;
+  padding-left: 0.5rem;
+  width: 40%;
+}
+.table__colum--two {
+  padding-right: 6.5rem;
+  padding-left: 0.5rem;
+  width: 60%;
+}
+
+.text-foot {
+  margin-top: 1.9rem;
+  margin-bottom: 11rem;
+}
+
+.button-foot {
+  margin-top: 1.9rem;
+}
+.button-foot__body {
+  padding-top: 1.8rem;
+  padding-bottom: 1.9rem;
+  width: 100%;
 }
 
 .map {
@@ -1836,6 +2097,8 @@ li {
 /*hero*/
 /*section*/
 /*card-archive*/
+/*table*/
+/*button*/
 /*pagination*/
 /*Project=====================*/
 /*header*/
@@ -1843,6 +2106,12 @@ li {
 /*hero*/
 /*section*/
 /*card*/
+/*image*/
+/*list*/
+/*code*/
+/*table*/
+/*text-foot*/
+/*button-foot*/
 /*map*/
 /*pager*/
 /*footer*/

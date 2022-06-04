@@ -1,0 +1,30 @@
+.information {
+  color: #3C2A10;
+  &__text, &__image {
+    margin-top: 1.9rem;
+  }
+  &__heading{
+    &--huge {
+      margin-top: 1.9rem;
+      font-size: 1.8rem;
+    }
+    &--large {
+      margin-top: 2.1rem;
+      font-size: 1.5rem;
+    }
+    &--medium, &--tiny{
+      margin-top: 1.9rem;
+    }
+    &--small {
+      margin-top: 2.3rem;
+    }
+  }
+  &__image {
+    &.Image {
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    object-position: 0% 100%;
+    }
+  }
+}

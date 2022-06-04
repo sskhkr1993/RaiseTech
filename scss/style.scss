@@ -36,12 +36,21 @@
 /*section*/
 @use '../scss/object/component/Content';
 
+@use '../scss/object/component/Quote';
+@use '../scss/object/component/Cite';
+
 /*card-archive*/
 @use '../scss/object/component/Card';
 @use '../scss/object/component/Image';
 @use '../scss/object/component/Background';
 @use '../scss/object/component/Link';
 @use '../scss/object/component/Grid';
+
+/*table*/
+@use '../scss/object/component/Table';
+
+/*button*/
+@use '../scss/object/component/Button';
 
 /*pagination*/
 @use '../scss/object/component/Pagination';
@@ -67,10 +76,31 @@
 /*section*/
 @use '../scss/object/project/introduction';
 
+@use '../scss/object/project/information';
+@use '../scss/object/project/quote';
+
 /*card*/
 @use "../scss/object/project/article";
 @use '../scss/object/project/card';
 @use '../scss/object/project/card-list';
+
+/*image*/
+@use '../scss/object/project/image';
+
+/*list*/
+@use '../scss/object/project/list';
+
+/*code*/
+@use '../scss/object/project/code';
+
+/*table*/
+@use '../scss/object/project/table';
+
+/*text-foot*/
+@use '../scss/object/project/text-foot';
+
+/*button-foot*/
+@use '../scss/object/project/button-foot';
 
 /*map*/
 @use "../scss/object/project/map";

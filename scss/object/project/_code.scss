@@ -1,0 +1,13 @@
+.code {
+  margin-top: 1.9rem;
+  background-color: #F5F5F5;
+  &__inner{
+    color: #3C2A10;
+    font-family: 'm1';
+    font-size: 1rem;
+  }
+  &__outer {
+    margin: 0;
+    padding: 3.1rem;
+  }
+}

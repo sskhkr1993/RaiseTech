@@ -146,4 +146,45 @@
       }
     }
   }
+
+  /*single*/
+  &--single{
+    margin-top: 1.9rem;
+    &.Grid{
+      grid-template-columns: 46% 54%;
+      grid-template-rows: auto;
+    }
+    &__figure, &__image {
+    height: 100%;
+    }
+    &__image {
+    background-image: url(../../../image/single/cooked-foods-750073.jpg);
+    &.Image{
+      background-position: unset;
+      background-size: contain;
+      }
+    }
+  }
+
+  &--singleSecond{
+      margin-top: 1.9rem;
+    &.Grid{
+      grid-template-columns: 54% 46%;
+      grid-template-rows: auto;
+    }
+    &__header {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    &__figure, &__image {
+    height: 100%;
+    }
+    &__image {
+    background-image: url(../../../image/single/cooked-foods-750073.jpg);
+    &.Image{
+      background-position: unset;
+      background-size: contain;
+      }
+    }
+  }
 }

@@ -1,0 +1,43 @@
+.image-list {
+  margin: 0;
+  padding: 0;
+  &.Grid {
+    gap: 1.2rem;
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
+  &__wrapper {
+    margin-top: 2rem;
+  }
+}
+
+.list-wrapper {
+  margin-top: 2rem;
+}
+
+.decimal-list {
+  margin: 0;
+  margin-top: 1.2rem;
+  padding-left: 2rem;
+  list-style: decimal;
+  &--second {
+    margin-top: 0.8rem;
+    padding-left: 1.5rem;
+  }
+  &__item {
+    list-style: decimal;
+  }
+}
+
+.text-list {
+  margin: 0;
+  margin-top: 1.2rem;
+  padding-left: 0.5rem;
+  &__outer {
+    margin-top: 3.7rem;
+  }
+  &--second {
+    margin-top: 0.8rem;
+    padding-left: 1.2rem;
+  }
+}
