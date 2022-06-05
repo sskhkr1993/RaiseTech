@@ -1,9 +1,18 @@
+@use '../../foundation/mixin.scss'as m;
+
 .quote {
   &.Quote {
   padding: 1.8rem 1rem 1.8rem 1.2rem;
   margin-top: 1.8rem;
+  @include m.breakpoint(tab) {
+    padding: 2.7rem 3rem 3.2rem 2.7rem;
+    margin-top: 3.2rem;
+  }
   }
   &__footer {
-      margin-top: 1.8rem;
+    margin-top: 1.8rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+    }
   }
 }

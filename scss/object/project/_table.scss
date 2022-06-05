@@ -1,20 +1,31 @@
+@use '../../foundation/mixin.scss'as m;
+
 .table {
   margin-top: 1.9rem;
+  text-align: left;
+  background-color: #fff;
+  @include m.breakpoint(tab) {
+    margin-top: 3.2rem;
+  }
   &__body{
     width: 100%;
     }
   &__colum{
     &--one{
     padding-top: 1.7rem;
-    padding-right: 2rem;
     padding-bottom: 1.6rem;
-    padding-left: 0.5rem;
+    padding-left: 1.9rem;
     width: 40%;
+    @include m.breakpoint(tab) {
+      width: 30%;
+      }
     }
     &--two {
-      padding-right: 6.5rem;
-      padding-left: 0.5rem;
+      padding-left: 1.9rem;
       width: 60%;
+      @include m.breakpoint(tab) {
+        width: 70%;
+      }
     }
   }
 }

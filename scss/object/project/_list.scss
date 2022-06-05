@@ -1,3 +1,5 @@
+@use '../../foundation/mixin.scss'as m;
+
 .image-list {
   margin: 0;
   padding: 0;
@@ -5,14 +7,24 @@
     gap: 1.2rem;
     grid-template-columns: none;
     grid-template-rows: none;
+    @include m.breakpoint(tab) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 0.9rem;
+      }
   }
   &__wrapper {
     margin-top: 2rem;
+    @include m.breakpoint(tab) {
+      margin-top: 13rem;
+      }
   }
 }
 
 .list-wrapper {
-  margin-top: 2rem;
+  @include m.breakpoint(tab) {
+    margin-left: 4rem;
+    }
 }
 
 .decimal-list {
@@ -20,6 +32,12 @@
   margin-top: 1.2rem;
   padding-left: 2rem;
   list-style: decimal;
+  &__outer {
+    margin-top: 2rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+      }
+  }
   &--second {
     margin-top: 0.8rem;
     padding-left: 1.5rem;
@@ -35,6 +53,9 @@
   padding-left: 0.5rem;
   &__outer {
     margin-top: 3.7rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+      }
   }
   &--second {
     margin-top: 0.8rem;

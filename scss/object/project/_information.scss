@@ -1,22 +1,46 @@
+@use '../../foundation/mixin.scss'as m;
+
 .information {
   color: #3C2A10;
   &__text, &__image {
     margin-top: 1.9rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+    }
   }
   &__heading{
-    &--huge {
+    &--huge /*h2*/{
       margin-top: 1.9rem;
       font-size: 1.8rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+        font-size: 2rem;
+      }
     }
-    &--large {
+    &--large/*h3*/ {
       margin-top: 2.1rem;
       font-size: 1.5rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
     }
-    &--medium, &--tiny{
+    &--medium/*h4*/{
       margin-top: 1.9rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
     }
-    &--small {
+    &--tiny/*h5*/{
+      margin-top: 1.9rem;
+      @include m.breakpoint(tab) {
+        margin-top: 4rem;
+      }
+    }
+    &--small /*h6*/{
       margin-top: 2.3rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
     }
   }
   &__image {
@@ -25,6 +49,9 @@
     height: 7rem;
     object-fit: cover;
     object-position: 0% 100%;
+    @include m.breakpoint(tab) {
+      height: 15rem;
+    }
     }
   }
 }

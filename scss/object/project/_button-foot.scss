@@ -1,8 +1,18 @@
+@use '../../foundation/mixin.scss'as m;
+
 .button-foot {
   margin-top: 1.9rem;
+  @include m.breakpoint(tab) {
+    margin-top: 3.2rem;
+    }
   &__body {
     padding-top: 1.8rem;
     padding-bottom: 1.9rem;
     width: 100%;
+    @include m.breakpoint(tab) {
+      padding-top: 2.3rem;
+      padding-bottom: 2.3rem;
+      width: 60%;
+      }
   }
 }

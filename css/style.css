@@ -1378,20 +1378,84 @@ li {
 }
 .information__text, .information__image {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__text, .information__image {
+    margin-top: 3.2rem;
+  }
 }
 .information__heading--huge {
   margin-top: 1.9rem;
   font-size: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__heading--huge {
+    margin-top: 3.2rem;
+    font-size: 2rem;
+  }
 }
 .information__heading--large {
   margin-top: 2.1rem;
   font-size: 1.5rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
-.information__heading--medium, .information__heading--tiny {
+@media (min-width: 600px) {
+  .information__heading--large {
+    margin-top: 3.2rem;
+  }
+}
+.information__heading--medium {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__heading--medium {
+    margin-top: 3.2rem;
+  }
+}
+.information__heading--tiny {
+  margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__heading--tiny {
+    margin-top: 4rem;
+  }
 }
 .information__heading--small {
   margin-top: 2.3rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__heading--small {
+    margin-top: 3.2rem;
+  }
 }
 .information__image.Image {
   width: 100%;
@@ -1400,14 +1464,45 @@ li {
      object-fit: cover;
   -o-object-position: 0% 100%;
      object-position: 0% 100%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__image.Image {
+    height: 15rem;
+  }
 }
 
 .quote.Quote {
   padding: 1.8rem 1rem 1.8rem 1.2rem;
   margin-top: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .quote.Quote {
+    padding: 2.7rem 3rem 3.2rem 2.7rem;
+    margin-top: 3.2rem;
+  }
 }
 .quote__footer {
   margin-top: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .quote__footer {
+    margin-top: 3.2rem;
+  }
 }
 
 .article {
@@ -1423,6 +1518,7 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*single*/
 }
 @media (min-width: 600px) {
   .article {
@@ -1437,6 +1533,19 @@ li {
   .article {
     gap: 2.3rem;
     margin: 3rem 2.5rem;
+  }
+}
+.article--single {
+  margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .article--single {
+    margin-top: 3.2rem;
   }
 }
 
@@ -1670,9 +1779,6 @@ li {
     font-size: 0.7rem;
   }
 }
-.card--single {
-  margin-top: 1.9rem;
-}
 .card--single.Grid {
   grid-template-columns: 46% 54%;
   grid-template-rows: auto;
@@ -1687,8 +1793,31 @@ li {
   background-position: unset;
   background-size: contain;
 }
+.card--single__body {
+  margin-left: 0.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card--single__body {
+    margin-left: 1.1rem;
+  }
+}
 .card--singleSecond {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card--singleSecond {
+    margin-top: 6rem;
+  }
 }
 .card--singleSecond.Grid {
   grid-template-columns: 54% 46%;
@@ -1707,6 +1836,19 @@ li {
 .card--singleSecond__image.Image {
   background-position: unset;
   background-size: contain;
+}
+.card--singleSecond__body {
+  margin-right: 0.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card--singleSecond__body {
+    margin-right: 1.1rem;
+  }
 }
 
 .card-list {
@@ -1744,6 +1886,16 @@ li {
 .image__outer--single {
   margin-top: 1.9rem;
   text-align: center;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .image__outer--single {
+    margin-top: 3.2rem;
+  }
 }
 .image__inner--single.Image {
   width: 80%;
@@ -1757,13 +1909,44 @@ li {
   gap: 1.2rem;
   grid-template-columns: none;
   grid-template-rows: none;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .image-list.Grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.9rem;
+  }
 }
 .image-list__wrapper {
   margin-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .image-list__wrapper {
+    margin-top: 13rem;
+  }
 }
 
 .list-wrapper {
-  margin-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .list-wrapper {
+    margin-left: 4rem;
+  }
 }
 
 .decimal-list {
@@ -1771,6 +1954,19 @@ li {
   margin-top: 1.2rem;
   padding-left: 2rem;
   list-style: decimal;
+}
+.decimal-list__outer {
+  margin-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .decimal-list__outer {
+    margin-top: 3.2rem;
+  }
 }
 .decimal-list--second {
   margin-top: 0.8rem;
@@ -1787,6 +1983,16 @@ li {
 }
 .text-list__outer {
   margin-top: 3.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .text-list__outer {
+    margin-top: 3.2rem;
+  }
 }
 .text-list--second {
   margin-top: 0.8rem;
@@ -1796,6 +2002,16 @@ li {
 .code {
   margin-top: 1.9rem;
   background-color: #F5F5F5;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .code {
+    margin-top: 3.2rem;
+  }
 }
 .code__inner {
   color: #3C2A10;
@@ -1809,35 +2025,98 @@ li {
 
 .table {
   margin-top: 1.9rem;
+  text-align: left;
+  background-color: #fff;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .table {
+    margin-top: 3.2rem;
+  }
 }
 .table__body {
   width: 100%;
 }
 .table__colum--one {
   padding-top: 1.7rem;
-  padding-right: 2rem;
   padding-bottom: 1.6rem;
-  padding-left: 0.5rem;
+  padding-left: 1.9rem;
   width: 40%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .table__colum--one {
+    width: 30%;
+  }
 }
 .table__colum--two {
-  padding-right: 6.5rem;
-  padding-left: 0.5rem;
+  padding-left: 1.9rem;
   width: 60%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .table__colum--two {
+    width: 70%;
+  }
 }
 
 .text-foot {
   margin-top: 1.9rem;
-  margin-bottom: 11rem;
+  padding-bottom: 11rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .text-foot {
+    margin-top: 3.2rem;
+    padding-bottom: 12rem;
+  }
 }
 
 .button-foot {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .button-foot {
+    margin-top: 3.2rem;
+  }
 }
 .button-foot__body {
   padding-top: 1.8rem;
   padding-bottom: 1.9rem;
   width: 100%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .button-foot__body {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    width: 60%;
+  }
 }
 
 .map {

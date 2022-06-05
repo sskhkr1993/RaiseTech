@@ -1,6 +1,11 @@
+@use '../../foundation/mixin.scss'as m;
+
 .code {
   margin-top: 1.9rem;
   background-color: #F5F5F5;
+  @include m.breakpoint(tab) {
+    margin-top: 3.2rem;
+  }
   &__inner{
     color: #3C2A10;
     font-family: 'm1';

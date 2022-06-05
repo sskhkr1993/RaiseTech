@@ -149,7 +149,6 @@
 
   /*single*/
   &--single{
-    margin-top: 1.9rem;
     &.Grid{
       grid-template-columns: 46% 54%;
       grid-template-rows: auto;
@@ -164,10 +163,19 @@
       background-size: contain;
       }
     }
+    &__body {
+      margin-left: 0.7rem;
+      @include m.breakpoint(tab) {
+        margin-left: 1.1rem;
+      }
+    }
   }
 
   &--singleSecond{
       margin-top: 1.9rem;
+      @include m.breakpoint(tab) {
+        margin-top: 6rem;
+      }
     &.Grid{
       grid-template-columns: 54% 46%;
       grid-template-rows: auto;
@@ -184,6 +192,12 @@
     &.Image{
       background-position: unset;
       background-size: contain;
+      }
+    }
+    &__body {
+      margin-right: 0.7rem;
+      @include m.breakpoint(tab) {
+        margin-right: 1.1rem;
       }
     }
   }

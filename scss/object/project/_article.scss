@@ -16,4 +16,12 @@
     gap: 2.3rem;
     margin: 3rem 2.5rem;
   }
+
+  /*single*/
+  &--single {
+    margin-top: 1.9rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+    }
+  }
 }
