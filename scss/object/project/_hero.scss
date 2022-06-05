@@ -114,4 +114,30 @@
       }
     }
   }
+  &--page{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    padding-left: 1.5rem;
+    background-image: url(../../../image/page/hero--page.jpg);
+    @include m.breakpoint(tab) {
+      padding-top: 11rem;
+      padding-bottom: 11rem;
+      padding-left: 4.5rem;
+    }
+    @include m.breakpoint(pc) {
+      padding-top: 9.5rem;
+      padding-bottom: 9.5rem;
+      padding-left: 4rem;
+      background-image: url(../../../image/page/hero--page.jpg);
+    }
+    &__heading{
+      font-size: 2rem;
+      @include m.breakpoint(tab) {
+        font-size: 3.3rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
