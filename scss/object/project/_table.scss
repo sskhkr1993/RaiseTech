@@ -6,6 +6,11 @@
   background-color: #fff;
   @include m.breakpoint(tab) {
     margin-top: 3.2rem;
+    font-size: 0.9rem;
+  }
+  @include m.breakpoint(pc) {
+    margin-top: 2.1rem;
+    font-size: 0.7rem;
   }
   &__body{
     width: 100%;
@@ -18,13 +23,21 @@
     width: 40%;
     @include m.breakpoint(tab) {
       width: 30%;
-      }
     }
+    @include m.breakpoint(pc) {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+      padding-left: 1.3rem;
+    }
+  }
     &--two {
       padding-left: 1.9rem;
       width: 60%;
       @include m.breakpoint(tab) {
         width: 70%;
+      }
+      @include m.breakpoint(pc) {
+        padding-left: 1.3rem;
       }
     }
   }

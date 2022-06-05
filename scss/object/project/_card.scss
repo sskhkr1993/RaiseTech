@@ -152,52 +152,97 @@
     &.Grid{
       grid-template-columns: 46% 54%;
       grid-template-rows: auto;
-    }
-    &__figure, &__image {
-    height: 100%;
-    }
-    &__image {
-    background-image: url(../../../image/single/cooked-foods-750073.jpg);
-    &.Image{
-      background-position: unset;
-      background-size: contain;
+      @include m.breakpoint(pc) {
+        grid-template-columns: 42% 58%;
       }
     }
+    &__figure, &__image {
+      height: 100%;
+    }
+    &__image {
+      background-image: url(../../../image/single/cooked-foods-750073.jpg);
+      &.Image{
+        background-position: unset;
+        background-size: contain;
+        @include m.breakpoint(pc) {
+          height: 15rem;
+          background-position: bottom;
+          background-size: cover;
+          }
+        }
+      }
     &__body {
       margin-left: 0.7rem;
       @include m.breakpoint(tab) {
         margin-left: 1.1rem;
+        }
+      @include m.breakpoint(pc) {
+        margin-left: 0.8rem;
+        }
+      }
+      &__content {
+        &.Content {
+          @include m.breakpoint(tab) {
+            font-size: 0.9rem;
+            }
+          @include m.breakpoint(pc) {
+            font-size: 0.7rem;
+            }
+        }
       }
     }
-  }
 
   &--singleSecond{
-      margin-top: 1.9rem;
-      @include m.breakpoint(tab) {
-        margin-top: 6rem;
+    margin-top: 1.9rem;
+    @include m.breakpoint(tab) {
+      margin-top: 6rem;
+      }
+    @include m.breakpoint(pc) {
+      margin-top: 2.5rem;
       }
     &.Grid{
       grid-template-columns: 54% 46%;
       grid-template-rows: auto;
-    }
+      @include m.breakpoint(pc) {
+        grid-template-columns: 58% 42%;
+      }
+      }
     &__header {
       grid-column: 2/3;
       grid-row: 1/2;
-    }
+      }
     &__figure, &__image {
-    height: 100%;
-    }
+      height: 100%;
+      }
     &__image {
-    background-image: url(../../../image/single/cooked-foods-750073.jpg);
+      background-image: url(../../../image/single/cooked-foods-750073.jpg);
     &.Image{
       background-position: unset;
       background-size: contain;
+      @include m.breakpoint(pc) {
+        height: 15rem;
+        background-position: bottom;
+        background-size: cover;
+        }
       }
     }
     &__body {
       margin-right: 0.7rem;
       @include m.breakpoint(tab) {
         margin-right: 1.1rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-right: 0.8rem;
+      }
+    }
+    &__content {
+      &.Content {
+        @include m.breakpoint(tab) {
+          font-size: 0.9rem;
+          }
+        @include m.breakpoint(pc) {
+          font-size: 0.7rem;
+          }
       }
     }
   }

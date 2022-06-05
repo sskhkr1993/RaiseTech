@@ -665,7 +665,10 @@ li {
     justify-content: space-between;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 1.5rem 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.6rem;
   }
 }
 
@@ -1337,7 +1340,7 @@ li {
 }
 @media (min-width: 1025px) {
   .hero--single__heading {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -1383,15 +1386,30 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__text, .information__image {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__text, .information__image {
+    margin-top: 2.5rem;
+  }
+}
 .information__heading--huge {
   margin-top: 1.9rem;
   font-size: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1404,9 +1422,20 @@ li {
     font-size: 2rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__heading--huge {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
 .information__heading--large {
   margin-top: 2.1rem;
   font-size: 1.5rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1418,8 +1447,19 @@ li {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__heading--large {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+}
 .information__heading--medium {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1431,8 +1471,19 @@ li {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__heading--medium {
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
+  }
+}
 .information__heading--tiny {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1444,8 +1495,19 @@ li {
     margin-top: 4rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__heading--tiny {
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
+  }
+}
 .information__heading--small {
   margin-top: 2.3rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1455,6 +1517,12 @@ li {
 @media (min-width: 600px) {
   .information__heading--small {
     margin-top: 3.2rem;
+  }
+}
+@media (min-width: 1025px) {
+  .information__heading--small {
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
   }
 }
 .information__image.Image {
@@ -1469,16 +1537,54 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__image.Image {
     height: 15rem;
   }
 }
+@media (min-width: 1025px) {
+  .information__image.Image {
+    height: 21rem;
+  }
+}
+.information__text.Content {
+  font-size: 1rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .information__text.Content {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .information__text.Content {
+    font-size: 0.7rem;
+  }
+}
 
 .quote.Quote {
   padding: 1.8rem 1rem 1.8rem 1.2rem;
   margin-top: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1491,8 +1597,41 @@ li {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .quote.Quote {
+    padding: 2.1rem 2.3rem 2.1rem 2.1rem;
+    margin-top: 2.5rem;
+  }
+}
+.quote__content.Content {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .quote__content.Content {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .quote__content.Content {
+    font-size: 0.7rem;
+  }
+}
 .quote__footer {
   margin-top: 1.8rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1502,6 +1641,13 @@ li {
 @media (min-width: 600px) {
   .quote__footer {
     margin-top: 3.2rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .quote__footer {
+    margin-top: 2.5rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -1542,10 +1688,20 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .article--single {
     margin-top: 3.2rem;
+  }
+}
+@media (min-width: 600px) {
+  .article--single {
+    margin-top: 2.5rem;
   }
 }
 
@@ -1782,6 +1938,16 @@ li {
 .card--single.Grid {
   grid-template-columns: 46% 54%;
   grid-template-rows: auto;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .card--single.Grid {
+    grid-template-columns: 42% 58%;
+  }
 }
 .card--single__figure, .card--single__image {
   height: 100%;
@@ -1792,9 +1958,26 @@ li {
 .card--single__image.Image {
   background-position: unset;
   background-size: contain;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .card--single__image.Image {
+    height: 15rem;
+    background-position: bottom;
+    background-size: cover;
+  }
 }
 .card--single__body {
   margin-left: 0.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1806,8 +1989,40 @@ li {
     margin-left: 1.1rem;
   }
 }
+@media (min-width: 1025px) {
+  .card--single__body {
+    margin-left: 0.8rem;
+  }
+}
+.card--single__content.Content {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card--single__content.Content {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .card--single__content.Content {
+    font-size: 0.7rem;
+  }
+}
 .card--singleSecond {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1819,9 +2034,24 @@ li {
     margin-top: 6rem;
   }
 }
+@media (min-width: 1025px) {
+  .card--singleSecond {
+    margin-top: 2.5rem;
+  }
+}
 .card--singleSecond.Grid {
   grid-template-columns: 54% 46%;
   grid-template-rows: auto;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .card--singleSecond.Grid {
+    grid-template-columns: 58% 42%;
+  }
 }
 .card--singleSecond__header {
   grid-column: 2/3;
@@ -1836,9 +2066,26 @@ li {
 .card--singleSecond__image.Image {
   background-position: unset;
   background-size: contain;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .card--singleSecond__image.Image {
+    height: 15rem;
+    background-position: bottom;
+    background-size: cover;
+  }
 }
 .card--singleSecond__body {
   margin-right: 0.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1848,6 +2095,33 @@ li {
 @media (min-width: 600px) {
   .card--singleSecond__body {
     margin-right: 1.1rem;
+  }
+}
+@media (min-width: 1025px) {
+  .card--singleSecond__body {
+    margin-right: 0.8rem;
+  }
+}
+.card--singleSecond__content.Content {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card--singleSecond__content.Content {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .card--singleSecond__content.Content {
+    font-size: 0.7rem;
   }
 }
 
@@ -1891,14 +2165,34 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .image__outer--single {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .image__outer--single {
+    margin-top: 2.5rem;
+  }
+}
 .image__inner--single.Image {
   width: 80%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .image__inner--single.Image {
+    width: 42%;
+  }
 }
 
 .image-list {
@@ -1914,6 +2208,11 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .image-list.Grid {
@@ -1922,8 +2221,20 @@ li {
     gap: 0.9rem;
   }
 }
+@media (min-width: 1025px) {
+  .image-list.Grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0.9rem;
+  }
+}
 .image-list__wrapper {
   margin-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1935,8 +2246,18 @@ li {
     margin-top: 13rem;
   }
 }
+@media (min-width: 1025px) {
+  .image-list__wrapper {
+    margin-top: 2.5rem;
+  }
+}
 
 .list-wrapper {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1946,6 +2267,13 @@ li {
 @media (min-width: 600px) {
   .list-wrapper {
     margin-left: 4rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .list-wrapper {
+    margin-left: 2rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -1954,9 +2282,24 @@ li {
   margin-top: 1.2rem;
   padding-left: 2rem;
   list-style: decimal;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .decimal-list {
+    margin-top: 0.8rem;
+  }
 }
 .decimal-list__outer {
   margin-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1966,6 +2309,11 @@ li {
 @media (min-width: 600px) {
   .decimal-list__outer {
     margin-top: 3.2rem;
+  }
+}
+@media (min-width: 1025px) {
+  .decimal-list__outer {
+    margin-top: 2.5rem;
   }
 }
 .decimal-list--second {
@@ -1980,9 +2328,24 @@ li {
   margin: 0;
   margin-top: 1.2rem;
   padding-left: 0.5rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .text-list {
+    margin-top: 0.8rem;
+  }
 }
 .text-list__outer {
   margin-top: 3.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -1992,6 +2355,11 @@ li {
 @media (min-width: 600px) {
   .text-list__outer {
     margin-top: 3.2rem;
+  }
+}
+@media (min-width: 1025px) {
+  .text-list__outer {
+    margin-top: 2.5rem;
   }
 }
 .text-list--second {
@@ -2007,20 +2375,60 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .code {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .code {
+    margin-top: 2.5rem;
+  }
+}
 .code__inner {
   color: #3C2A10;
   font-family: "m1";
   font-size: 1rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .code__inner {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .code__inner {
+    font-size: 0.7rem;
+  }
 }
 .code__outer {
   margin: 0;
   padding: 3.1rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 1025px) {
+  .code__outer {
+    padding: 2.1rem;
+  }
 }
 
 .table {
@@ -2032,10 +2440,22 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .table {
     margin-top: 3.2rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .table {
+    margin-top: 2.1rem;
+    font-size: 0.7rem;
   }
 }
 .table__body {
@@ -2051,15 +2471,32 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .table__colum--one {
     width: 30%;
   }
 }
+@media (min-width: 1025px) {
+  .table__colum--one {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1.3rem;
+  }
+}
 .table__colum--two {
   padding-left: 1.9rem;
   width: 60%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -2071,10 +2508,20 @@ li {
     width: 70%;
   }
 }
+@media (min-width: 1025px) {
+  .table__colum--two {
+    padding-left: 1.3rem;
+  }
+}
 
 .text-foot {
   margin-top: 1.9rem;
   padding-bottom: 11rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -2085,11 +2532,24 @@ li {
   .text-foot {
     margin-top: 3.2rem;
     padding-bottom: 12rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .text-foot {
+    margin-top: 2.5rem;
+    padding-bottom: 15rem;
+    font-size: 0.7rem;
   }
 }
 
 .button-foot {
   margin-top: 1.9rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -2101,10 +2561,20 @@ li {
     margin-top: 3.2rem;
   }
 }
+@media (min-width: 1025px) {
+  .button-foot {
+    margin-top: 2.5rem;
+  }
+}
 .button-foot__body {
   padding-top: 1.8rem;
   padding-bottom: 1.9rem;
   width: 100%;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
   /*タブレットの切り替え*/
@@ -2116,6 +2586,15 @@ li {
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     width: 60%;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .button-foot__body {
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    width: 30%;
+    font-size: 0.7rem;
   }
 }
 
@@ -2356,10 +2835,20 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .u-padding {
     padding: 0 1.9rem 0 2.3rem;
+  }
+}
+@media (min-width: 1025px) {
+  .u-padding {
+    padding: 0 4.2rem 0 4.2rem;
   }
 }
 

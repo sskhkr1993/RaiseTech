@@ -23,5 +23,8 @@
     @include m.breakpoint(tab) {
       margin-top: 3.2rem;
     }
+    @include m.breakpoint(tab) {
+      margin-top: 2.5rem;
+    }
   }
 }

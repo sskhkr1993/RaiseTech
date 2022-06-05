@@ -6,13 +6,25 @@
   @include m.breakpoint(tab) {
     margin-top: 3.2rem;
   }
+  @include m.breakpoint(pc) {
+    margin-top: 2.5rem;
+  }
   &__inner{
     color: #3C2A10;
     font-family: 'm1';
     font-size: 1rem;
+    @include m.breakpoint(tab) {
+      font-size: 0.9rem;
+    }
+    @include m.breakpoint(pc) {
+      font-size: 0.7rem;
+    }
   }
   &__outer {
     margin: 0;
     padding: 3.1rem;
+    @include m.breakpoint(pc) {
+      padding: 2.1rem;
+    }
   }
 }
